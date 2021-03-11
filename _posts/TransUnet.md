@@ -36,3 +36,4 @@ Synapse multi-organ segmentation dataset(CT), The ACDC challenge(MRI) 사용함.
 ViT – None: Encoder는 ViT, Decoder는 없음 ViT – CUP: Decoder로 CUP를 사용 R50-ViT – CUP: Resnet50, ViT 하이브리드 Encoder 사용, Decoder로 CUP를 사용
 
 실험 결과를 보면 하이브리드 Encoder, CUP를 추가함에 따라 성능이 올라가는 것을 확인할 수 있고 모두 사용했을 때 결과가 좋았다.
+
