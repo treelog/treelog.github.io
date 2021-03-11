@@ -20,8 +20,7 @@ Architecture
 1) Image Sequentialization 
 PxP 크기의 patch들을 sequence vector x_p로 만든다.
 
-2) Patch Embedding 각 patch들을 linear projection한 후 positional embedding을 더한다. ![그림7](/assets/그림7.png) 그 후 Transformer를 통과시켜 embedding을 구한다 ![그림8](/assets/그림8.png)
-
+2) Patch Embedding 각 patch들을 linear projection한 후 positional embedding을 더한다. ![그림7](https://user-images.githubusercontent.com/46548053/110742200-4417db80-8279-11eb-8a93-d8f0700b4bd2.png) 그 후 Transformer를 통과시켜 embedding을 구한다 ![그림8](https://user-images.githubusercontent.com/46548053/110742230-52fe8e00-8279-11eb-96d0-0cfbc3cf165d.png)
 3) CUP(Cascaded Upsampler): 기존 UNET에서 사용하는 Decoder Architecture와 거의 유사.
 
 실험결과
@@ -29,7 +28,8 @@ PxP 크기의 patch들을 sequence vector x_p로 만든다.
 
 Synapse multi-organ segmentation dataset(CT), The ACDC challenge(MRI) 사용함. V-Net, U-Net, AttnUNet과 비교하였다.
 
-![그림9](/assets/그림9.png) ![그림10](/assets/그림10.png)
+![그림9](https://user-images.githubusercontent.com/46548053/110742256-5eea5000-8279-11eb-853b-e23e5d84c647.png)
+![그림10](https://user-images.githubusercontent.com/46548053/110742275-6ad61200-8279-11eb-9d3d-0b6bad812af3.png)
 
 여러 Encoder/Decoder 조합과 비교
 
