@@ -16,7 +16,7 @@ Motivation
 Architecture
 ------------
 
-![그림6](/assets/그림6.png) 
+![그림6](https://user-images.githubusercontent.com/46548053/110742066-0dda5c00-8279-11eb-9609-54ba6de9d57a.png)
 1) Image Sequentialization 
 PxP 크기의 patch들을 sequence vector x_p로 만든다.
 
