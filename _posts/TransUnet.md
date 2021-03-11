@@ -1,10 +1,6 @@
 ---
 title:  "TransUNet"
-
-categories:
-  - Blog
-tags:
-  - Blog
+categories: update
 ---
 
 TransUNet
