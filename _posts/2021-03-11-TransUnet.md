@@ -20,12 +20,12 @@ Architecture
 1) Image Sequentialization 
 PxP 크기의 patch들을 sequence vector x_p로 만든다.
 
-2) Patch Embedding 각 patch들을 linear projection한 후 positional embedding을 더한다. 
-![그림7](https://user-images.githubusercontent.com/46548053/110742200-4417db80-8279-11eb-8a93-d8f0700b4bd2.png) 
-그 후 Transformer를 통과시켜 embedding을 구한다 
-![그림8](https://user-images.githubusercontent.com/46548053/110742230-52fe8e00-8279-11eb-96d0-0cfbc3cf165d.png)
-3) CUP(Cascaded Upsampler): 
-4) 기존 UNET에서 사용하는 Decoder Architecture와 거의 유사.
+2) Patch Embedding 각 patch들을 linear projection한 후 positional embedding을 더한다.  
+![그림7](https://user-images.githubusercontent.com/46548053/110742200-4417db80-8279-11eb-8a93-d8f0700b4bd2.png)   
+그 후 Transformer를 통과시켜 embedding을 구한다  
+![그림8](https://user-images.githubusercontent.com/46548053/110742230-52fe8e00-8279-11eb-96d0-0cfbc3cf165d.png)  
+3) CUP(Cascaded Upsampler):
+기존 UNET에서 사용하는 Decoder Architecture와 거의 유사.
 
 실험결과
 --------
