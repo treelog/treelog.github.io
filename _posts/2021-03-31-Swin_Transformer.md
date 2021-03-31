@@ -5,7 +5,7 @@
 1, 2번 문제를 해결하기 위해 제시한 것이 hierarchical representation이다. 처음에는 small patch로 시작해서 점진적으로 patch의 크기를 키운다. 
 
 
-![1](https://user-images.githubusercontent.com/46548053/113129186-92574380-9255-11eb-8b93-ae316db58655.PNG)
+![3](https://user-images.githubusercontent.com/46548053/113129193-94210700-9255-11eb-9b0b-adbf80b79928.PNG)
 
 
 hierarchical representation를 보면 Feature Pyramid와 형태가 유사하다는 것을 알 수 있는데 저자도 hierarchical representation를 이용하여 segmentation 등의 dense prediction을 수행할 수 있다고 주장한다. 
@@ -17,7 +17,7 @@ hierarchical representation를 보면 Feature Pyramid와 형태가 유사하다�
 ![2](https://user-images.githubusercontent.com/46548053/113129189-93887080-9255-11eb-8104-164d59e73eef.PNG)
 
 
-![3](https://user-images.githubusercontent.com/46548053/113129193-94210700-9255-11eb-9b0b-adbf80b79928.PNG)
+![1](https://user-images.githubusercontent.com/46548053/113129186-92574380-9255-11eb-8b93-ae316db58655.PNG)
 
 
 하나의 stage는 두개의 swin transformer block으로 이루어지고 한 block에서는 그냥 window, 다른 한 block에서는 swin block를 사용한다.
