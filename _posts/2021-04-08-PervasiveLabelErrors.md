@@ -1,3 +1,8 @@
+---
+title:  "Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks"
+categories: update
+---
+
 ImageNet과 같은 Dataset의 labeling은 Crowdsourcing 등을 통해 이루어지는데, 이는 label 에러를 유발할 위험이 있다. 기존 연구는 training set의 label 에러에 대한 연구였다면, 이 연구는 test set의 label 에러에 대한 연구이다. 
 
 
