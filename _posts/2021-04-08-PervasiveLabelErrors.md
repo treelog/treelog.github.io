@@ -6,7 +6,7 @@ categories: update
 ImageNet과 같은 Dataset의 labeling은 Crowdsourcing 등을 통해 이루어지는데, 이는 label 에러를 유발할 위험이 있다. 기존 연구는 training set의 label 에러에 대한 연구였다면, 이 연구는 test set의 label 에러에 대한 연구이다. 
 
 
-이 저자가 이전에 연구했던 confident learning을 이용해서 test set의 label error를 automatically 파악하고 human evaluation을 통해 검증하니 test set에 3.4%, validation set에 6%의 error가 문제가 있었다.
+이 저자가 자기가 이전에 연구했던 confident learning을 이용해서 test set의 label error를 automatically 파악하고 human evaluation을 통해 검증하니 test set에 3.4%, validation set에 6%의 error가 문제가 있었다.
 
 
 ![1](https://user-images.githubusercontent.com/46548053/114011417-2b164080-98a0-11eb-9c29-d4013750ccae.PNG)
